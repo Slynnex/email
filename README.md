@@ -9,11 +9,11 @@ Agregue un archivo .env en la raiz e ingrese sus crendeciales de la siguiente ma
 
 Para inicializar el servicio con el comando npm run dev
 
-Mande las solicitudes a la url
+Mande las solicitudes a la url con un metodo post
     http://localhost:4000/api/v1/sendEmail
 
 
-con los siguiente parametros en formato JSON
+con los siguiente parametros en formato JSON (quitar los comentarios)
 {
     "from": "gaitan138@gmail.com", //Nombre del correo que aparece como remitente
     "to": "kevin.paes1010@gmail.com", //Correo del destinatario
